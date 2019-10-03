@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+<link rel="stylesheet" type="text/css" href="tablenums.css">
+<link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<img class="center" src="Images/imageedit_32_6536696746.png">
+	<div class="container-fluid">
+		<h1>Multiplication Table of Any Number</h1>
+
+		<form>
+			<label>Type Any Number</label>
+			<input id = 'enterNumber' type="number" name="" required>
+			<button id = 'submit' type="submit" class="btn btn-warning">Get Table</button>
+			<button id = 'reset' type="submit" onclick = 'return clearForm(this.form)'; class="btn btn-success">Reset</button>
+
+
+
+		</form>
+	</div>
+
+	
+	<div id = 'table'>
+		<ul style="list-style: none">
+			<li id = 'header'> hey</li>
+			<li id = 'timesOne'>five</li>
+			<li id = 'timesTwo'></li>
+			<li id = 'timesThree'></li>
+			<li id = 'timesFour'></li>
+			<li id = 'timesFive'></li>
+			<li id = 'timesSix'></li>
+			<li id = 'timesSeven'></li>
+			<li id = 'timesEight'></li>
+			<li id = 'timesNine'></li>
+			<li id = 'timesTen'></li>
+		</ul>
+
+	</div>
+
+<script type="text/javascript" src="tablesofnum.js"></script>
+</body>
+</html>
